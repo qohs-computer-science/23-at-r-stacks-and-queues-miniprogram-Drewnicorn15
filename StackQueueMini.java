@@ -22,7 +22,7 @@ class StackQueueMini {
         s.add(temp);
         s.add(temp);
     }
-    System.out.println(s);
+    System.out.println("output: "+s);
     q = new LinkedList();
     for(int i =0; i<10; i++)
     {
@@ -43,7 +43,7 @@ class StackQueueMini {
     }
     even.addAll(odd);
     q= even;
-    System.out.println(q);
+    System.out.println("output: "+q);
     scan.close();
   } // end main
 } // end class
